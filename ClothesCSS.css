@@ -1,0 +1,58 @@
+:root {
+        --c1: #000000;
+        --c2: #ffffff;
+		--c3: #ff8b94;
+}
+.container{
+	position: relative;
+	top: 150px;
+	width: 400px;
+	height: 450px;
+	background-color: #D5D5D5;
+	border: 3px solid white;
+}
+.btn{
+	position: relative;
+	color: white;
+	left: 70px;
+	top: 55px;
+	margin:20px;
+	border-radius: 20px;
+	background-color: red;
+}
+.btn:hover{
+	background-color: black;
+	color: red;
+	transition: 0.4s;
+}
+.buttons{
+    width: 200px;
+	height: 45px;
+}
+.navbar-brand{
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #242424;
+    background-color: #d5d5d5;
+}
+.navbar-expand-lg{
+    background-color: #d5d5d5;
+}
+.nav-link{
+    margin-right: 16px;
+    font-size: 125%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #242424;
+    background-color: #d5d5d5;
+}
+.nav-link:hover{
+    background-color: black;
+    color: #d5d5d5;
+}
+.nav-link:active{
+    background-color: black;
+    color:#ff0000;
+}
+.weird{
+	width:200px;
+}

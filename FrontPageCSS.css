@@ -1,0 +1,38 @@
+:root {
+        --c1: #FF0000;
+        --c2: #FFFFFF;
+		--c3: #000000;
+		--c4: #D5D5D5;
+    }
+body{
+	color: #000000;
+	font-family: "Sans-serif";
+}
+.container{
+	position: relative;
+	top: 100px;
+	height: 525px;
+	width: 870px;
+	border: 3px solid var(--c2);
+}
+#cont{
+	background-color: var(--c4);
+}
+h1{
+	color: var(--c3);
+}
+h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.btn{
+	background-color: var(--c1);
+	color: var(--c2);
+	width: 120px;
+    border-radius: 20px;
+}
+.btn:hover{
+	background-color: var(--c3);
+	color: var(--c1);
+	transition: 0.4s;
+}
